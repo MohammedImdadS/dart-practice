@@ -2,7 +2,6 @@ void main(List<String> args) async {
   await for(final names in allNames()){
     print(names);
   }
-
 }
 
 Stream<String> maleNames() async*{

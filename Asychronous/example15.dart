@@ -1,7 +1,7 @@
 import 'dart:async';
 
 /// Broadcast stream
-/// In broadcast stream multiple listener can lsen and cpnsume at same time
+/// In broadcast stream multiple listener can listen and consume at same time
 /// where as in non-broadcast stream only one listener can lisen at a time
 void main(List<String> args) async {
   await nonBroadcastStreamExample();

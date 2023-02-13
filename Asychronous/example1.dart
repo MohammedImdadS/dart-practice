@@ -10,7 +10,7 @@ void main(List<String> args) async {
   print(await getZipCode());
 }
 
-// Different  wats to write future functions
+// Different  ways to write future functions
 
 /// By using async keyword as below
 Future<String> getUserName() async => 'Foo Bar';

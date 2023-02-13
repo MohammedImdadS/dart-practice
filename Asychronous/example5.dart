@@ -12,7 +12,7 @@ Stream<String> getCharacters(String fromString) async* {
 }
 
 /// Chaining of stream using asyncExpand
-/// Inorder to yield you have use async*
+/// Inorder to yield, you have to use async*
 Stream<String> getNames() async* {
   await Future.delayed(Duration(milliseconds: 200));
   yield 'Foo';

@@ -45,7 +45,8 @@ class Person {
     this.age,
   );
 
-  /// Named constructor
+  /// Named constructor 
+  /// Named constructor are the only alternative to have multiple constructor since Dart has no method overloading
   /// type 2
   const Person.foo()
       : name = 'foo',

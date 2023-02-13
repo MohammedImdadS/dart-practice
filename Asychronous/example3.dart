@@ -1,5 +1,5 @@
 void main(List<String> args) async {
-  /// One way of passin future to future
+  /// One way of passing future to future
   // final length = await calculateLength(await getFullName());
   // print(length);
 
@@ -13,7 +13,7 @@ void main(List<String> args) async {
   /// Observe the above length and this lenght1 we are using then two times
   final length1 = await getFullName().then(
     (value) => calculateLength(value),
-  ).then((value) => 'cool');
+  ).then((value) => '$value cool');
   print(length1);
 }
 

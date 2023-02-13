@@ -7,10 +7,10 @@ void main(List<String> args) async {
   print(sum1);
 
   /// other ways
-  /// here await works without await for because reduce returns of type Future
+  /// here await works without (await for) because reduce return is of type Future
   final sum2 = await getAllAges().reduce((previous, element) => previous + element);
   print(sum2);
-  /// Above reduce can used like, we can pass add fuction to reduce
+  /// Above reduce function can be used like below, we can pass add fuction to reduce
   final sum3 = await getAllAges().reduce(add);
   print(sum3);
 
